@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+}
+
+.tile {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.empty {
+    background-color: #f0f0f0;
+    cursor: default;
+}
+.photo{
+    margin-top: 20px;
+    border-top: 4px solid red;
+}
