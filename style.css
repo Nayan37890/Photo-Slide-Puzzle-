@@ -3,17 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-left: 10px;
     padding: 10px;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    margin-left: 20px;
 }
 
 #puzzle {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
-    gap: 5px;
+    gap: 1px;
 }
 
 .tile {
